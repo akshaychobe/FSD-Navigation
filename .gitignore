@@ -14,7 +14,8 @@ outputs/
 *.onnx
 *.weights
 runs/
-
+*.jpg
+*.txt
 # IDE and system-specific files
 .vscode/
 .DS_Store

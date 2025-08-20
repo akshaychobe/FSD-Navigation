@@ -1,0 +1,26 @@
+# Ignore Python cache and artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Ignore dataset and large generated files
+data/
+dataset/
+outputs/
+*.npz
+*.pt
+*.onnx
+*.weights
+runs/
+
+# IDE and system-specific files
+.vscode/
+.DS_Store
+*.log
+__pycache__/
+*.zip
+*.pptx
+*.mp4
+*.ipynb

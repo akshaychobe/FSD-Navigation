@@ -4,7 +4,7 @@ Autonomous navigation pipeline for Formula Student Driverless (FSD) vehicles usi
 
 ### 1. Cone Detection 
 <div align="center">
-  <img src="results/perception/88.jpg" width="600"/>
+  <img src="results/perception/88.png" width="600"/>
 </div>
 
 ### 2. Trajectory planning

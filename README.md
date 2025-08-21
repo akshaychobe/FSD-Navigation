@@ -102,9 +102,9 @@ python src/planning/real-time_trajectory_planner.py
 
 ## 6. Key Visualizations
 
-- 📊 `results/eda/` — Label stats, class distribution, scatter plots
-- 🧭 `results/planning/trajectory_arrows.jpg` — Arrows from car point to midpoint
-- 🎥 `results/planning/trajectory_animation.gif` — End-to-end cone detection with trajectory overlay (demo output)
+- `results/eda/` — Label stats, class distribution, scatter plots
+- `results/planning/trajectory_arrows.jpg` — Arrows from car point to midpoint
+- `results/planning/trajectory_animation.gif` — End-to-end cone detection with trajectory overlay (demo output)
 
 ---
 

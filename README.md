@@ -9,21 +9,21 @@ Autonomous navigation pipeline for Formula Student Driverless (FSD) vehicles usi
 ```
 FSD-Navigation/
 │
+├── data/                     # Dataset directory to add FSOCO
+│
+├── models/
+│   └── yolov5/               # Trained YOLOv5 weights (best.pt, best.onnx)
+│
+├── results/
+│   ├── eda/                  # Plots from EDA
+│   └── planning/             # Visualizations of trajectory outputs
 ├── src/
 │   ├── eda/                  # Exploratory Data Analysis
 │   ├── perception/           # YOLOv5 training and inference scripts
 │   └── planning/             # Midpoint computation and trajectory generation
 │
-├── results/
-│   ├── eda/                  # Plots from EDA
-│   └── planning/             # Visualizations of trajectory outputs
-│
-├── models/
-│   └── yolov5/               # Trained YOLOv5 weights (best.pt, best.onnx)
-│
-├── data/                     # (Ignored) Dataset directory
-├── requirements.txt
 ├── .gitignore
+├── requirements.txt
 └── README.md
 ```
 

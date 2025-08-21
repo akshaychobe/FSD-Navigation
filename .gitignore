@@ -1,3 +1,10 @@
+# Allow model weights in this folder only
+!models/yolov5/best.onnx
+!models/yolov5/best.pt
+!models/yolov5/last.pt
+
+
+
 # Ignore Python cache and artifacts
 __pycache__/
 *.pyc

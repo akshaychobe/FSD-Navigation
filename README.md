@@ -2,11 +2,15 @@
 
 Autonomous navigation pipeline for Formula Student Driverless (FSD) vehicles using computer vision, object detection, and real-time trajectory planning. This repository implements a cone detection-based system that detects track boundaries, localizes the vehicle path, and visualizes the intended trajectory using real-time YOLO-based inference.
 
+### 1. Cone Detection 
+<div align="center">
+  <img src="results/perception/88.jpg" width="600"/>
+</div>
 
+### 2. Trajectory planning
 <div align="center">
   <img src="results/planning/trajectory_arrows.jpg" width="600"/>
 </div>
-
 ---
 
 ## 📁 Project Structure
